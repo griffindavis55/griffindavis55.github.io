@@ -61,7 +61,7 @@ html{
     position: absolute;
     top: 0;
     right: 0;
-    background: url(headshots/img2.jpg) no-repeat center center/cover; /* image i want as background for home page*/
+    background: url(/headshots/img2.jpg) no-repeat center center/cover; /* image i want as background for home page*/
     height: 900px;
     width: 100%; 
     z-index: -1; /*sets image back one layer*/
