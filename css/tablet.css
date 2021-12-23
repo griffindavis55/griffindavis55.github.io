@@ -26,15 +26,10 @@
     padding: 10px;
 }
 
-/* contacts */
-.input{
-    width: 60%;
+/* resume section*/
+
+#resume iframe{
+    width: 100%;
+    zoom: 50%;
 }
 
-#msg{
-    width: 55%;
-}
-
-#send{
-    width: 20%;
-}
