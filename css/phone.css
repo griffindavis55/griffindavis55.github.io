@@ -22,15 +22,10 @@
 #intro h2{
     font-size: 1.5rem;
 }
-/* contacts */
-.input{
-    width: 80%;
+/* resume section*/
+
+#resume iframe{
+    width: 100%;
+    zoom: 50%;
 }
 
-#msg{
-    width: 70%;
-}
-
-#send{
-    width: 20%;
-}
