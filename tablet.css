@@ -1,0 +1,40 @@
+/*nav */
+.navbar ul{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* home section */
+.headings{ 
+    font-size: 2.5rem;  
+}
+
+/* about Section */
+#pic{
+    flex-direction: column;
+    align-items: center;
+}
+
+#pic img{ 
+    width: 475px;;
+    height: 300px;
+}
+
+#intro{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+/* contacts */
+.input{
+    width: 60%;
+}
+
+#msg{
+    width: 55%;
+}
+
+#send{
+    width: 20%;
+}
