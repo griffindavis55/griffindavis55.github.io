@@ -61,7 +61,7 @@ html{
     position: absolute;
     top: 0;
     right: 0;
-    background: url(/headshots/img2.jpg) no-repeat center center/cover; /* image i want as background for home page*/
+    background: url(headshots/img2.jpg) no-repeat center center/cover; /* image i want as background for home page*/
     height: 900px;
     width: 100%; 
     z-index: -1; /*sets image back one layer*/
@@ -152,16 +152,19 @@ html{
     background-color: transparent;
     padding: 0px;
     color: white;
+    display: inline-block;
 }
 
 #skills p a{ /*sets skills section */
-    display: flex;
-    flex-direction: column;
-    background-color: transparent;
-    padding: 0px;
     color: white;
     text-decoration: none;
 }
+
+#skills p a:hover{ /*sets skills section */
+    text-decoration: underline;
+}
+
+
 
 .row{
     display: flex;
@@ -193,66 +196,55 @@ html{
     box-shadow: 0 0 20px white;
 }
 
-/* contacts */
+/*resume*/
+#resume{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(1, 16, 22, 0.938);
+    padding: 0px;
+    color: white;
+    align-items: center;
+}
 
-#contact{
+#resume iframe{
+    border: none;
+}
+
+/* footer*/
+#footer {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     background-color: rgba(1, 16, 22, 0.938);
     color: white;
+    text-align: center;
 }
 
-.form{
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    align-items: center;
-    margin: 20px 0px;
+#footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+#footer ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
-.input{
-    padding: 12px;
-    margin: 15px;
-    width: 30%;
-    border: 1px solid white;
-    outline: none;
-    background-color: black;
-    color: white;
-    border-radius: 15px;
+#footer ul li a{
+    text-decoration: none;
+    color: #999;
 }
 
-.input:hover{
-    box-shadow: 0 0 20px white;
+#footer ul li a:hover{
+    text-decoration: underline;;
 }
 
-#msg{
-    width: 20%;
-    padding: 10px;
-    margin: 15px;
-    border: 1px solid white;
-    outline: none;
-    background-color: black;
-    color: white;
-    border-radius: 15px;
+#footer ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
 }
 
-#msg:hover{
-    box-shadow: 0 0 20px white;
-}
-
-#send{
-    width: 10%;
-    padding: 10px;
-    margin: 40px;
-    border: 1px solid white;
-    outline: none;
-    background-color: black;
-    color: white;
-    border-radius: 15px;
-}
-
-#send:hover{
-    cursor: pointer;
-    box-shadow: 0 0 10px white;
+#footer ul.posts li {
+    list-style: none;
 }
