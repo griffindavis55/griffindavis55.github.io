@@ -157,14 +157,8 @@ html{
 
 #skills p a{ /*sets skills section */
     color: white;
-    text-decoration: none;
-}
-
-#skills p a:hover{ /*sets skills section */
     text-decoration: underline;
 }
-
-
 
 .row{
     display: flex;
